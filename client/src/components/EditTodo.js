@@ -57,7 +57,7 @@ const EditTodo = ({ todo }) => {
             <div className="modal-footer">
               <button 
                 type="button" 
-                className="btn btn-warning text-light" 
+                className="btn btn-success text-light" 
                 data-dismiss="modal"
                 onClick = {e => updateDescription(e)}
               >Save</button>
